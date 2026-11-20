@@ -1,0 +1,22 @@
+{
+  "operation_id": "synthetic-booking-001",
+  "task_id": "synthetic-booking",
+  "synthetic": true,
+  "execution_status": "completed",
+  "effect_status": "committed",
+  "cancellation_status": "new_work_stopped",
+  "retry_policy": "not_applicable",
+  "recovery_class": "compensatable",
+  "can_undo": false,
+  "evidence": [
+    "synthetic-provider-confirmation-001"
+  ],
+  "human_message": "The provider confirms the booking committed before stopping. A supported cancellation would be a separate authorised action.",
+  "scope_ref": "synthetic-delegation-example",
+  "model_version": "fictional-model-1",
+  "tool_contract_version": "fictional-tool-1",
+  "limitations": [
+    "Illustrative local record only; no live operation, credential or actual approval.",
+    "Not an MCP protocol object or a production recovery engine."
+  ]
+}

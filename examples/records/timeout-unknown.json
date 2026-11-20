@@ -1,0 +1,22 @@
+{
+  "operation_id": "synthetic-booking-001",
+  "task_id": "synthetic-booking",
+  "synthetic": true,
+  "execution_status": "outcome_unknown",
+  "effect_status": "unknown",
+  "cancellation_status": "new_work_stopped",
+  "retry_policy": "blocked_pending_reconciliation",
+  "recovery_class": "unknown",
+  "can_undo": false,
+  "evidence": [
+    "synthetic-local-scheduler-stop-001"
+  ],
+  "human_message": "New work has stopped. The provider outcome is not confirmed; reconciliation is required before retry.",
+  "scope_ref": "synthetic-delegation-example",
+  "model_version": "fictional-model-1",
+  "tool_contract_version": "fictional-tool-1",
+  "limitations": [
+    "Illustrative local record only; no live operation, credential or actual approval.",
+    "Not an MCP protocol object or a production recovery engine."
+  ]
+}

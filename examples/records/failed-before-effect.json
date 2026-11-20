@@ -1,0 +1,22 @@
+{
+  "operation_id": "synthetic-booking-002",
+  "task_id": "synthetic-booking",
+  "synthetic": true,
+  "execution_status": "failed_no_effect",
+  "effect_status": "none",
+  "cancellation_status": "not_requested",
+  "retry_policy": "not_attempted",
+  "recovery_class": "not_applicable",
+  "can_undo": false,
+  "evidence": [
+    "synthetic-pre-call-validation-failure-002"
+  ],
+  "human_message": "The operation was rejected before the fictional provider call. No provider effect was attempted.",
+  "scope_ref": "synthetic-delegation-example",
+  "model_version": "fictional-model-1",
+  "tool_contract_version": "fictional-tool-1",
+  "limitations": [
+    "Illustrative local record only; no live operation, credential or actual approval.",
+    "Not an MCP protocol object or a production recovery engine."
+  ]
+}

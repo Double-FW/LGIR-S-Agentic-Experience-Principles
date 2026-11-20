@@ -1,0 +1,22 @@
+{
+  "operation_id": "synthetic-send-003",
+  "task_id": "synthetic-email",
+  "synthetic": true,
+  "execution_status": "closed_with_residual_effect",
+  "effect_status": "residual",
+  "cancellation_status": "not_supported",
+  "retry_policy": "not_applicable",
+  "recovery_class": "irreversible",
+  "can_undo": false,
+  "evidence": [
+    "synthetic-delivery-event-003"
+  ],
+  "human_message": "The fictional message was delivered. No complete retraction is supported; a correcting message would not erase delivery.",
+  "scope_ref": "synthetic-delegation-example",
+  "model_version": "fictional-model-1",
+  "tool_contract_version": "fictional-tool-1",
+  "limitations": [
+    "Illustrative local record only; no live operation, credential or actual approval.",
+    "Not an MCP protocol object or a production recovery engine."
+  ]
+}

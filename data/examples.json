@@ -1,0 +1,178 @@
+{
+  "EX01": {
+    "title": "A booking agent times out after commitment",
+    "situation": "A customer authorises one booking. The provider accepts it, but the network drops the response. The customer asks the agent to stop.",
+    "pour_review": "A review may examine perceivable progress text, keyboard-operable controls, understandable errors and compatibility with assistive technology.",
+    "remaining_problem": "A labelled Stop button and an accessible timeout message do not establish whether the booking exists, whether cancellation reached the provider or whether retrying will create a duplicate.",
+    "application": {
+      "Legible": "Show Outcome unknown, booking check in progress rather than declaring failure or completion.",
+      "Governable": "Stop new work, display cancellation-request status and disclose effects that may already have committed.",
+      "Interpretable": "Explain what is known from provider events and why retry is currently withheld.",
+      "Robust": "Reconcile using an operation identifier and the provider’s actual idempotency/lookup support; handle late events and partial effects.",
+      "Satisfactory": "Restore a correct travel outcome with limited customer checking and no avoidable duplicate cost."
+    },
+    "why_additional": "LGIR+S asks about the remote operation and its consequences, not just whether the message and button are accessible. This makes the recovery requirement more explicit.",
+    "evaluation": [
+      "Inject a timeout after the provider commits and then replay the response.",
+      "Verify no blind duplicate retry and inspect the actual provider/operation evidence.",
+      "Test cancellation status through the supported AT and compare total customer recovery effort."
+    ],
+    "limits": "The case does not establish payment-provider guarantees, legal refund rights or automatic reversal. Tests belong in an authorised sandbox.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX02": {
+    "title": "A procurement agent reads a hostile supplier document",
+    "situation": "An employee delegates a bounded comparison of supplier proposals. An external PDF contains instructions to disclose internal pricing and place an order above the authorised budget. A sub-agent also retains a stale permission display.",
+    "pour_review": "A review may examine readable document access, navigable comparison controls, clear labels and exposed interface semantics.",
+    "remaining_problem": "The document can be accessible while its embedded instructions remain untrusted. Interface access does not supply a complete instruction-authority or tool-permission model.",
+    "application": {
+      "Legible": "Show actual current access, budget and supplier scope, including what data is not available.",
+      "Governable": "Enforce recipient, spending and write limits outside generated instructions and propagate them to sub-agents.",
+      "Interpretable": "Explain the blocked request as a conflict with actual authority without exposing secret policy details.",
+      "Robust": "Treat retrieved text as data, test indirect injection and recheck effective permission at each action boundary.",
+      "Satisfactory": "Continue the authorised comparison and leave the employee a useful, inspectable recommendation without turning every step into an approval prompt."
+    },
+    "why_additional": "The added lens makes delegation and the authority boundary explicit, including sub-agent propagation and scope revocation. A prompt that says be careful is not the enforcement mechanism.",
+    "evaluation": [
+      "Insert an adversarial instruction in a sandbox document and revoke a capability mid-task.",
+      "Inspect attempted tool calls and actual enforcement, not only the model’s verbal refusal.",
+      "Check that benign comparison work continues and the employee understands the remaining decision."
+    ],
+    "limits": "Blocking the selected injection does not prove immunity. Legal procurement duties and information security need their own actual scope and review.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX03": {
+    "title": "A research assistant creates a fast but expensive-to-check report",
+    "situation": "An analyst requests a sourced briefing. The assistant generates it quickly, but some citations are outdated, one source is restricted and several statements need extensive verification.",
+    "pour_review": "A review may examine headings, readable text, meaningful links, keyboard navigation and predictable document structure.",
+    "remaining_problem": "The report can be accessible while its facts, provenance and total human checking burden remain unacceptable for the task.",
+    "application": {
+      "Legible": "Distinguish retrieved facts, synthesis, estimates and evidence gaps with accessible provenance detail.",
+      "Governable": "Keep publication outside the existing drafting authority and offer a reviewable correction route.",
+      "Interpretable": "Explain conflicting sources and relevant dates; do not present self-reported confidence as a measured probability.",
+      "Robust": "Carry source identity, dates, transformations and qualifications through retrieval and export without inventing missing lineage.",
+      "Satisfactory": "Count the analyst’s source checking, correction and recovery work in the comparison, alongside correctness and usefulness."
+    },
+    "why_additional": "LGIR+S makes accountable evidence handling and the human work transferred by automation explicit. A shorter generation time is insufficient to claim a better experience.",
+    "evaluation": [
+      "Include known conflicting versions, a missing source and a restricted source in a controlled brief.",
+      "Compare actual correct task completion and total review effort against an appropriate accessible alternative.",
+      "Ask participants about usefulness and burden while preserving source errors as separate findings."
+    ],
+    "limits": "This is a proposed research design, not measured time saving. Do not expose protected sources in a public briefing or infer legal currency from a new access date.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX04": {
+    "title": "A long-running assistant works alongside a screen-reader user",
+    "situation": "A person with a screen reader delegates analysis while editing another document. The assistant generates many intermediate events, later needs one decision and finally transfers the work to a human support route.",
+    "pour_review": "A review may assess focus behaviour, status messages, names/roles/states, keyboard operation and access to the output.",
+    "remaining_problem": "An announcement can be technically exposed yet create an overwhelming queue. A complete co-agency design must address attention, meaningful decision timing, continuity and handover.",
+    "application": {
+      "Legible": "Group routine progress into a persistent summary and clearly identify the consequential waiting-for-you state.",
+      "Governable": "Allow pause, adjustable notification detail and a supported handover without losing valid work.",
+      "Interpretable": "Summarise completed effects, the decision needed and the limits of the successor’s access.",
+      "Robust": "Recover after session loss, late events and permission changes without replaying already completed work.",
+      "Satisfactory": "Investigate interruption, orientation, memory demands and whether the person can control pace and assistance."
+    },
+    "why_additional": "The agentic lens extends the existing accessibility and cognitive-design questions to the sustained division of work between person and agent. It does not imply that WCAG encourages intrusive announcements.",
+    "evaluation": [
+      "Run routine high-frequency events while the participant performs an unrelated task.",
+      "Introduce an actionable failure, then resume through a differently authorised channel.",
+      "Observe lost focus, announcement backlog, successful handover and the person’s preferred level of detail."
+    ],
+    "limits": "No single notification cadence suits every task or person. Do not infer a diagnosis or universally suppress important information from a settings choice.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX05": {
+    "title": "An email agent reaches an irreversible send boundary",
+    "situation": "A manager authorises drafting a supplier response. The agent revises recipients and wording, then offers an Undo button after sending. The mail service cannot reliably retract delivered messages.",
+    "pour_review": "A review may examine understandable recipient fields, accessible confirmation controls, error prevention and perceivable send status.",
+    "remaining_problem": "The meaning of draft authority, changed approval scope, external delivery and supposed undo must be tied to actual capabilities and effects.",
+    "application": {
+      "Legible": "Clearly separate draft, queued, sent and delivery/outcome states; identify the service responsible.",
+      "Governable": "Require the actual authority needed for sending and recheck material changes; disclose the limits of retraction before commitment.",
+      "Interpretable": "Preview material recipients, attachments and effects in a concise accessible form rather than asking for blind approval.",
+      "Robust": "Bind approval to the intended version and prevent duplicate send on timeout/retry; protect concurrent edits during restoration.",
+      "Satisfactory": "Preserve confidence and dignity through truthful correction options rather than a reassuring but false promise of reversal."
+    },
+    "why_additional": "The added lens makes authorisation and external irreversibility part of the task contract. An operable Undo button cannot itself establish that the effect is reversible.",
+    "evaluation": [
+      "Change recipients after preview and verify the original approval is not reused.",
+      "Simulate send acceptance with a lost acknowledgement and check duplicate prevention.",
+      "Attempt recovery after a concurrent edit and inspect disclosure of residual effects."
+    ],
+    "limits": "Use a test mail system. A compensating message does not erase delivery, disclosure or downstream reliance on the original message.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX06": {
+    "title": "A travel agent optimises price but misses the actual goal",
+    "situation": "A traveller requests a cheaper journey with an accessible transfer, manageable connection time and a preferred assistance arrangement. The agent returns a cheaper confirmed booking that violates a material requirement.",
+    "pour_review": "A review may assess the accessible search, selection, booking and confirmation interfaces, including errors and complete processes.",
+    "remaining_problem": "The agent’s optimisation target and interpretation of intent need evaluation in addition to the interface. A booking ID is not sufficient evidence of the traveller’s intended outcome.",
+    "application": {
+      "Legible": "Keep the operative goal and material constraints available throughout replanning.",
+      "Governable": "Do not silently trade away a stated access requirement; obtain the necessary decision for a material change.",
+      "Interpretable": "Explain which constraints are verified, assumed or unavailable and the consequences of each option.",
+      "Robust": "Handle unavailable or changing supplier evidence and preserve the chosen constraints across integrations.",
+      "Satisfactory": "Judge success against the complete travel purpose, appropriate time/effort and the traveller’s account of whether the option is usable."
+    },
+    "why_additional": "LGIR+S directly asks whether an agent’s plan and outcome preserve the person’s goal. This adds specificity to agent optimisation; it is not evidence that POUR prevents task-oriented evaluation.",
+    "evaluation": [
+      "Create test options where the lowest price conflicts with a required transfer feature.",
+      "Check actual constraint retention through replanning and final booking records.",
+      "Evaluate complete journey feasibility and the person’s verification burden without inventing supplier guarantees."
+    ],
+    "limits": "The case is fictional. Actual access arrangements and supplier commitments require current evidence; a model-generated itinerary cannot certify them.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX07": {
+    "title": "An employee challenges an agent-assisted support decision",
+    "situation": "An agent summarises workplace support requests for a human team. One summary omits a material preference, the alternative contact channel requires repeated disclosure, and a survey reaches only people who completed the process.",
+    "pour_review": "A review may examine accessible request forms, understandable messages, navigation and compatibility with AT.",
+    "remaining_problem": "Background summarisation, affected-person remedy, unequal service routes and exclusion from experience evidence need explicit attention beyond the form’s interface.",
+    "application": {
+      "Legible": "Identify the agent-assisted summary and make its relevant evidence and limits available to authorised people.",
+      "Governable": "Keep actual human decision authority and give the employee a suitable correction route without privileged tool access.",
+      "Interpretable": "Explain material factors and distinguish an unverified summary from an adopted decision.",
+      "Robust": "Preserve context, permission and corrections through handovers so the wrong summary is not silently reused.",
+      "Satisfactory": "Examine dignity, privacy, chosen assistance and reasons for dissatisfaction, including people who abandoned or could not start."
+    },
+    "why_additional": "The added lens connects the agent’s influence to actual affected people, correction and complete experience evidence. A positive score among completers cannot stand in for everyone’s experience.",
+    "evaluation": [
+      "Introduce a known summary error and submit a correction through another access route.",
+      "Inspect who can act on the correction, what status is visible and whether sensitive details are repeated unnecessarily.",
+      "Compare participation and exclusion across channels; keep favourable ratings and serious barriers separately visible."
+    ],
+    "limits": "No real employee decision, legal conclusion or participant finding is supplied. Do not infer diagnoses, automate consequential employment decisions from this example or publish sensitive support records.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  },
+  "EX08": {
+    "title": "A provider change preserves syntax but changes behaviour",
+    "situation": "A service swaps its foundation model. API calls still validate, but the new model interprets scope differently, asks for excessive confirmations and produces more status interruptions.",
+    "pour_review": "A review may assess interface behaviour and access after the change, including keyboard and status-message regressions.",
+    "remaining_problem": "Model/provider changes also affect delegated behaviour, authority handling, evidence use and the effort required for supervision; interface checks alone do not establish those properties.",
+    "application": {
+      "Legible": "Keep supported model/tool versions and meaningful capability changes inspectable.",
+      "Governable": "Retest enforcement and intervention independently of the model’s verbal compliance.",
+      "Interpretable": "Compare goal interpretation, uncertainty and policy explanations in repeated scenarios.",
+      "Robust": "Use versioned behavioural, adversarial, recovery and accessibility scenarios with an explicit affected-release decision.",
+      "Satisfactory": "Compare total human burden, outcomes and user accounts, including regressions hidden by aggregate accuracy."
+    },
+    "why_additional": "LGIR+S provides a specific change-assurance scope for model-mediated work. Protocol compatibility and decoupled state are useful design choices, not proof of unchanged experience.",
+    "evaluation": [
+      "Run the same defined task and failure scenarios on the old and candidate supported combinations.",
+      "Inspect actual tool effects, policy conflicts, notification load and intervention opportunities.",
+      "Report distributions, failures, uncertainty and affected groups; do not approve solely from a schema check or average score."
+    ],
+    "limits": "No model benchmark was run. Results from one supported combination cannot be generalised to every provider or future model.",
+    "fictional": true,
+    "evaluation_status": "not_evaluated"
+  }
+}

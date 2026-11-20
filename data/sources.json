@@ -1,0 +1,210 @@
+[
+  {
+    "id": "WCAG22",
+    "title": "Web Content Accessibility Guidelines 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "scope": "External normative standard; LGIR+S does not amend its requirements.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "WCAG-INTRO",
+    "title": "Introduction to Understanding WCAG 2.2",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/intro",
+    "scope": "Informative explanation of principles and guidance layers.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "WCAG-STATUS",
+    "title": "Understanding Status Messages",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+    "scope": "Scoped informative explanation; not a specification for full agent observability.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "WCAG-PARSING",
+    "title": "Parsing: obsolete and removed",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/parsing.html",
+    "scope": "Historical comparison only; removed from WCAG 2.2.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "WAI-OVERLAP",
+    "title": "Accessibility, Usability, and Inclusion",
+    "url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/",
+    "scope": "Overlapping disciplines; no claim that WCAG is only technical functionality.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "WAI-USERS",
+    "title": "Involving Users in Evaluating Web Accessibility",
+    "url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+    "scope": "Evaluation guidance; no participant study performed for this draft.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "MCP-CANCEL",
+    "title": "MCP cancellation, pinned 2025-06-18 edition",
+    "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/cancellation",
+    "scope": "Pinned protocol example; cancellation is not guaranteed rollback; not asserted as latest edition.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "MCP-TOOLS",
+    "title": "MCP tools, pinned 2025-06-18 edition",
+    "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+    "scope": "Tool description/invocation reference; not a guarantee of safe behaviour or a universal UI.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "OPENAPI",
+    "title": "OpenAPI Specification 3.1.1",
+    "url": "https://spec.openapis.org/oas/v3.1.1.html",
+    "scope": "Pinned API description example, not latest-version advice or behavioural assurance.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "NIST-RMF",
+    "title": "NIST AI Risk Management Framework resource",
+    "url": "https://airc.nist.gov/airmf-resources/airmf/",
+    "scope": "Voluntary risk-management reference; this repository is not a NIST certification or complete crosswalk.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "OWASP-PI",
+    "title": "OWASP LLM01:2025 Prompt Injection",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "scope": "Threat reference; no guarantee that a listed defence prevents every attack.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "RFC2119",
+    "title": "RFC 2119 requirement keywords",
+    "url": "https://www.rfc-editor.org/rfc/rfc2119",
+    "scope": "Keyword convention only, not adoption of IETF authority.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "RFC8174",
+    "title": "RFC 8174 uppercase keyword clarification",
+    "url": "https://www.rfc-editor.org/rfc/rfc8174",
+    "scope": "Uppercase keyword convention only.",
+    "accessed": "2026-11-20",
+    "retrieval_status": "content_retrieved",
+    "source_type": "external_primary_reference"
+  },
+  {
+    "id": "DFW-POURS",
+    "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+    "path": "POURS_Access_Experience_and_Brand_Promise.md",
+    "commit": "0410091af93053783ff8594f4404be1bf721f407",
+    "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/POURS_Access_Experience_and_Brand_Promise.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/POUR-for-Branding-Systems-and-CX / POURS_Access_Experience_and_Brand_Promise.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  },
+  {
+    "id": "DFW-COG",
+    "repository": "Double-FW/Cognitive-UX-Design",
+    "path": "Cognitive Design Principles.md",
+    "commit": "34d2e3cd2eb4a92409b198338f155fa42e0ba9ed",
+    "url": "https://github.com/Double-FW/Cognitive-UX-Design/blob/34d2e3cd2eb4a92409b198338f155fa42e0ba9ed/Cognitive%20Design%20Principles.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/Cognitive-UX-Design / Cognitive Design Principles.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  },
+  {
+    "id": "DFW-ETH",
+    "repository": "Double-FW/Data_Ethics_and_Disability",
+    "path": "README.md",
+    "commit": "77163fa48b6df5839e1294ec02797abf67c73980",
+    "url": "https://github.com/Double-FW/Data_Ethics_and_Disability/blob/77163fa48b6df5839e1294ec02797abf67c73980/README.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/Data_Ethics_and_Disability / README.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  },
+  {
+    "id": "DFW-QA",
+    "repository": "Double-FW/QA_Accessibility_Testing",
+    "path": "Testing_Approach.md",
+    "commit": "38602fc4ab48302649673d0524afc48d0a21a2a1",
+    "url": "https://github.com/Double-FW/QA_Accessibility_Testing/blob/38602fc4ab48302649673d0524afc48d0a21a2a1/Testing_Approach.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/QA_Accessibility_Testing / Testing_Approach.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  },
+  {
+    "id": "DFW-RUN",
+    "repository": "Double-FW/Accessibility_Programme_Runbooks",
+    "path": "framework/design-and-brand-systems.md",
+    "commit": "a8ec268b29e6f8612c958b183b9d33ab0747efa7",
+    "url": "https://github.com/Double-FW/Accessibility_Programme_Runbooks/blob/a8ec268b29e6f8612c958b183b9d33ab0747efa7/framework/design-and-brand-systems.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/Accessibility_Programme_Runbooks / framework/design-and-brand-systems.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  },
+  {
+    "id": "DFW-SYN",
+    "repository": "Double-FW/Synchronistic-Design-Formal-Operating-Model",
+    "path": "README.md",
+    "commit": "8d3caf35eedc71c423f32c77947e3eb862066f61",
+    "url": "https://github.com/Double-FW/Synchronistic-Design-Formal-Operating-Model/blob/8d3caf35eedc71c423f32c77947e3eb862066f61/README.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/Synchronistic-Design-Formal-Operating-Model / README.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  },
+  {
+    "id": "DFW-AMM",
+    "repository": "Double-FW/AI-Accessibility-Maturity-Model",
+    "path": "MODEL_SCOPE_AND_AUTHORITY.md",
+    "commit": "c2da391d266f2c4bb73160a90f9d2703c1d8f683",
+    "url": "https://github.com/Double-FW/AI-Accessibility-Maturity-Model/blob/c2da391d266f2c4bb73160a90f9d2703c1d8f683/MODEL_SCOPE_AND_AUTHORITY.md",
+    "public": true,
+    "read_status": "content_retrieved",
+    "title": "Double-FW/AI-Accessibility-Maturity-Model / MODEL_SCOPE_AND_AUTHORITY.md",
+    "scope": "Public practitioner guidance; preserve original draft/adoption status. Not independently validated or a substitute for applicable primary requirements.",
+    "accessed": "2026-11-20",
+    "source_type": "double_fw_public_guidance"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "LGIR+S",
+  "version": "0.1.0",
+  "date": "2026-11-20",
+  "status": "Double-FW editorial draft; no external endorsement or independent validation",
+  "robust_definition": "Agentic systems, their underlying data, and their human-facing interfaces must be resilient, transparent, and interoperable enough to operate reliably across diverse models, shifting contexts, and human oversight mechanisms, both now and as capabilities evolve.",
+  "robust_definition_origin": "Gareth Ford Williams, supplied in this conversation on 20 November 2026; wording retained unchanged",
+  "satisfactory_definition": "Agentic experiences must help people achieve their intended outcomes with appropriate quality, time and effort, while respecting their dignity, identity, preferences and control. Success must account for the work transferred to the human, including checking, correcting, supervising and recovering.",
+  "satisfactory_definition_origin": "Assistant-proposed definition, included following the owner request to create LGIR+S contents; not attributed as verbatim owner wording",
+  "principles": [
+    {
+      "number": 1,
+      "name": "Legible",
+      "definition": "Agent involvement, relevant capabilities, context boundaries, evidence and meaningful state are available in forms people can identify and use."
+    },
+    {
+      "number": 2,
+      "name": "Governable",
+      "definition": "Authorised people can direct, constrain and intervene in agentic work, with truthful limits on stopping, reversal and recovery."
+    },
+    {
+      "number": 3,
+      "name": "Interpretable",
+      "definition": "People can understand operative intent, material evidence, constraints and uncertainty sufficiently to make relevant decisions and challenge outcomes."
+    },
+    {
+      "number": 4,
+      "name": "Robust",
+      "definition": "Agentic systems, their underlying data, and their human-facing interfaces must be resilient, transparent, and interoperable enough to operate reliably across diverse models, shifting contexts, and human oversight mechanisms, both now and as capabilities evolve."
+    },
+    {
+      "number": 5,
+      "name": "Satisfactory",
+      "definition": "Agentic experiences must help people achieve their intended outcomes with appropriate quality, time and effort, while respecting their dignity, identity, preferences and control. Success must account for the work transferred to the human, including checking, correcting, supervising and recovering."
+    }
+  ]
+}
