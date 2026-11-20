@@ -1,0 +1,1512 @@
+{
+  "title": "LGIR+S agentic accessibility function-to-guidance routing map",
+  "version": "0.1.0",
+  "prepared": "2026-11-20",
+  "language": "en-GB",
+  "status": "editorial retrieval and routing resource; not normative requirements",
+  "intended_use": "Route an agentic customer-facing accessibility function or need to relevant public Double FW repositories for approaches, requirements, designed experiences, research or governance.",
+  "scope": {
+    "people": "Deaf, disabled and neurodivergent customers and other service users, including intersecting, temporary, fluctuating, situational or undisclosed access needs.",
+    "coverage": "Communication, information access, choice, control, task completion, escalation, research and organisational delivery.",
+    "boundary": "Routes to source repositories; does not reproduce their requirements, determine legal applicability, assess a product or prove that an agentic function is accessible."
+  },
+  "agent_routing_protocol": [
+    "Start with the explicit goal, declared preferences, task and context; use need_tags as retrieval labels, not diagnoses.",
+    "Select all relevant function records; a real customer journey may span several entries.",
+    "Read primary repository README.md and AGENTS.md, then retrieve the applicable owning source file and section; consult supporting sources for design, evaluation or governance.",
+    "Use legal/regulatory repositories only after establishing jurisdiction, service type and scope; verify legal claims against current official sources.",
+    "Treat LGIR+S references as relevance hints to proposed criteria, not conformance findings; apply WCAG and other current duties independently where relevant.",
+    "Report source URL, file/section, revision or access date, evidence, assumptions, unknowns and limitations."
+  ],
+  "global_guardrails": [
+    "Do not infer diagnosis, capacity, preferred modality or consent from clicks, speed, spelling, AT use, device settings, location or proxy behaviour.",
+    "Do not require a diagnosis or profile to provide an accessible route. Collect minimum data for a stated purpose and support review, correction, expiry or removal.",
+    "Do not silently change preferences or take consequential actions; distinguish proposal, authorisation, observed event and completed effect.",
+    "Do not let aggregate satisfaction, automation scores, policy or absence of complaints erase an individual barrier or excluded group.",
+    "Keep the agent control itself accessible across relevant input/output routes.",
+    "A retrieved repository or this map grants no authority to act, approve, disclose data or make a legal determination."
+  ],
+  "need_tag_definitions": {
+    "hearing": "Access to speech, sound or alerts through chosen alternatives or complements.",
+    "vision": "Access to visual content, controls, orientation and state through chosen alternatives or complements.",
+    "deafblind": "Combined access needs where single-channel assumptions may fail.",
+    "motor": "Alternative interaction where reach, precision, strength, repetition or timing creates barriers.",
+    "speech_communication": "Alternative communication when spoken input/output or turn-taking is unsuitable.",
+    "cognitive": "Support with understanding, sequencing, decision-making, information load or predictability.",
+    "memory": "Support remembering information, choices, steps, context or resuming.",
+    "attention": "Support with focus, transition, prioritisation or task completion.",
+    "reading": "Support with reading, writing, decoding, spelling or preferred text presentation.",
+    "sensory": "Control over sensory load, motion, sound, visual intensity or competing stimuli.",
+    "fatigue": "Support when energy, pain, attention or capacity fluctuates.",
+    "language": "Language/communication preference; not necessarily disability-related.",
+    "situational": "Context such as noise, muted audio, glare, one-handed use, low bandwidth or interruption.",
+    "all_users": "Cross-cutting need; do not assume a disability group."
+  },
+  "criteria_reference": {
+    "source": "SPECIFICATION.md",
+    "id_format": "LGIRS-<principle>.<criterion>",
+    "status": "Candidate criterion references only; not a conformance crosswalk.",
+    "principles": {
+      "1": "Legible",
+      "2": "Governable",
+      "3": "Interpretable",
+      "4": "Robust",
+      "5": "Satisfactory"
+    }
+  },
+  "repository_catalog": [
+    {
+      "id": "qa",
+      "repository": "Double-FW/QA_Accessibility_Testing",
+      "url": "https://github.com/Double-FW/QA_Accessibility_Testing",
+      "visibility": "public",
+      "scope": "Testing and evidence for web, mobile, design systems and digital services.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "little_book",
+      "repository": "Double-FW/The-Little-Book-of-Accessibility",
+      "url": "https://github.com/Double-FW/The-Little-Book-of-Accessibility",
+      "visibility": "public",
+      "scope": "Cross-functional accessibility, inclusion, culture, research, design and AI-assisted decision guidance.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "task_analysis",
+      "repository": "Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems",
+      "url": "https://github.com/Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems",
+      "visibility": "public",
+      "scope": "Task analysis and comparative evaluation of accessible workflows.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "esg_maturity",
+      "repository": "Double-FW/Mapping-Accessibility-Maturity-to-an-ESG-Model-",
+      "url": "https://github.com/Double-FW/Mapping-Accessibility-Maturity-to-an-ESG-Model-",
+      "visibility": "public",
+      "scope": "Accessibility maturity links to ESG, reporting and accountability.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "commitments",
+      "repository": "Double-FW/Executive-and-Organisational-Commitments",
+      "url": "https://github.com/Double-FW/Executive-and-Organisational-Commitments",
+      "visibility": "public",
+      "scope": "Reviewable organisational commitments, ownership, delivery and outcome evidence.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "champions",
+      "repository": "Double-FW/Accessibility-Champions",
+      "url": "https://github.com/Double-FW/Accessibility-Champions",
+      "visibility": "public",
+      "scope": "Operating guidance for accessibility champions networks.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "ai_maturity",
+      "repository": "Double-FW/AI-Accessibility-Maturity-Model",
+      "url": "https://github.com/Double-FW/AI-Accessibility-Maturity-Model",
+      "visibility": "public",
+      "scope": "AI accessibility capability, evidence and improvement planning.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "inclusive_design",
+      "repository": "Double-FW/Accessibility-and-Inclusive-Design-Knowledge-Base",
+      "url": "https://github.com/Double-FW/Accessibility-and-Inclusive-Design-Knowledge-Base",
+      "visibility": "public",
+      "scope": "Articles and workflow guidance for accessibility and inclusive design.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "typography",
+      "repository": "Double-FW/Accessible-Typography-for-UX-and-Brand-Systems",
+      "url": "https://github.com/Double-FW/Accessible-Typography-for-UX-and-Brand-Systems",
+      "visibility": "public",
+      "scope": "Accessible typography for UX, brands and design systems.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "synchronistic_design",
+      "repository": "Double-FW/Synchronistic-Design-Formal-Operating-Model",
+      "url": "https://github.com/Double-FW/Synchronistic-Design-Formal-Operating-Model",
+      "visibility": "public",
+      "scope": "Connects intent, human contexts, design, delivery, evidence and decisions.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "chatbots",
+      "repository": "Double-FW/Accessible-Chatbots",
+      "url": "https://github.com/Double-FW/Accessible-Chatbots",
+      "visibility": "public",
+      "scope": "Design, build, test and improve accessible conversational interfaces.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "accommodation",
+      "repository": "Double-FW/Accessibile-Accomodation-Checklist",
+      "url": "https://github.com/Double-FW/Accessibile-Accomodation-Checklist",
+      "visibility": "public",
+      "scope": "Accessible accommodation planning across the customer journey.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "branding_cx",
+      "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+      "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX",
+      "visibility": "public",
+      "scope": "Accessibility and experience questions for branding systems and CX.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "eaa",
+      "repository": "Double-FW/European-Accessibility-Act-EAA-Compliance-Approach",
+      "url": "https://github.com/Double-FW/European-Accessibility-Act-EAA-Compliance-Approach",
+      "visibility": "public",
+      "scope": "EAA delivery, evidence, service assessment and customer outcomes.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "captions",
+      "repository": "Double-FW/Closed-Caption-Subtitles",
+      "url": "https://github.com/Double-FW/Closed-Caption-Subtitles",
+      "visibility": "public",
+      "scope": "Caption/subtitle creation and delivery for media, live and interactive content.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "cognitive_ux",
+      "repository": "Double-FW/Cognitive-UX-Design",
+      "url": "https://github.com/Double-FW/Cognitive-UX-Design",
+      "visibility": "public",
+      "scope": "Understandable, controllable UX, including cognitive and intersecting needs.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "policy",
+      "repository": "Double-FW/Inclusion-and-Accessibility-Policy",
+      "url": "https://github.com/Double-FW/Inclusion-and-Accessibility-Policy",
+      "visibility": "public",
+      "scope": "Policy guidance connecting duties, commitments, owners, participation and evidence.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "casting",
+      "repository": "Double-FW/Creative-Disability-Casting-for-Film-and-TV-Drama",
+      "url": "https://github.com/Double-FW/Creative-Disability-Casting-for-Film-and-TV-Drama",
+      "visibility": "public",
+      "scope": "Rights-respecting disability-aware casting and talent discovery.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "drama",
+      "repository": "Double-FW/Drama-and-Disability",
+      "url": "https://github.com/Double-FW/Drama-and-Disability",
+      "visibility": "public",
+      "scope": "Cultural analysis and guidance for disability representation in screen content.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "video_production",
+      "repository": "Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management",
+      "url": "https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management",
+      "visibility": "public",
+      "scope": "Accessible video production from commissioning through publication.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "games",
+      "repository": "Double-FW/Inclusive-Games-Design",
+      "url": "https://github.com/Double-FW/Inclusive-Games-Design",
+      "visibility": "public",
+      "scope": "Inclusive game mechanics, sensory demands, information and testing.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "email",
+      "repository": "Double-FW/Accessible-Email-Design",
+      "url": "https://github.com/Double-FW/Accessible-Email-Design",
+      "visibility": "public",
+      "scope": "Accessible transactional, newsletter and other generated email.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "data_ethics",
+      "repository": "Double-FW/Data_Ethics_and_Disability",
+      "url": "https://github.com/Double-FW/Data_Ethics_and_Disability",
+      "visibility": "public",
+      "scope": "Ethical, privacy-preserving use of disability-related customer data.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "vrxr",
+      "repository": "Double-FW/VR_XR_and_AR_Accessibility",
+      "url": "https://github.com/Double-FW/VR_XR_and_AR_Accessibility",
+      "visibility": "public",
+      "scope": "Accessible virtual, augmented and cross-reality design and evaluation.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "documents",
+      "repository": "Double-FW/Accessible_Digital_and_Printed_Documents",
+      "url": "https://github.com/Double-FW/Accessible_Digital_and_Printed_Documents",
+      "visibility": "public",
+      "scope": "Documents usable with screen readers, magnification, braille and print.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "charts",
+      "repository": "Double-FW/Accessible_Charts_Graphs_and_Maps",
+      "url": "https://github.com/Double-FW/Accessible_Charts_Graphs_and_Maps",
+      "visibility": "public",
+      "scope": "Accessible charts, maps and complex graphics for understanding and decisions.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "audio_description",
+      "repository": "Double-FW/Audio-Descriptions",
+      "url": "https://github.com/Double-FW/Audio-Descriptions",
+      "visibility": "public",
+      "scope": "Editorial and production guidance for audio description and accessible video.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "wad",
+      "repository": "Double-FW/EU-Web-Accessibility-Directive_EN301549",
+      "url": "https://github.com/Double-FW/EU-Web-Accessibility-Directive_EN301549",
+      "visibility": "public",
+      "scope": "EU WAD / EN 301 549 source guidance and implementation interpretation.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "avmsd",
+      "repository": "Double-FW/The-Audiovisual-Media-Services-Directive-AVMSD-",
+      "url": "https://github.com/Double-FW/The-Audiovisual-Media-Services-Directive-AVMSD-",
+      "visibility": "public",
+      "scope": "Audiovisual accessibility delivery, viewer outcomes and reporting.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "hr",
+      "repository": "Double-FW/Inclusion-for-Managers-and-HR-Systems",
+      "url": "https://github.com/Double-FW/Inclusion-for-Managers-and-HR-Systems",
+      "visibility": "public",
+      "scope": "Inclusive employment lifecycle and HR service guidance.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "global_regs",
+      "repository": "Double-FW/Global_Accessiblity_Regulatory_Requirements",
+      "url": "https://github.com/Double-FW/Global_Accessiblity_Regulatory_Requirements",
+      "visibility": "public",
+      "scope": "Jurisdictional routing for digital accessibility requirements and reporting.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "runbooks",
+      "repository": "Double-FW/Accessibility_Programme_Runbooks",
+      "url": "https://github.com/Double-FW/Accessibility_Programme_Runbooks",
+      "visibility": "public",
+      "scope": "People-led and authorised-AI accessibility programme workflows.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "eu_ai_act",
+      "repository": "Double-FW/EU-AI-Act-accessibility-disability-rights-and-delivery",
+      "url": "https://github.com/Double-FW/EU-AI-Act-accessibility-disability-rights-and-delivery",
+      "visibility": "public",
+      "scope": "Human-centred AI Act, accessibility and disability-rights guidance.",
+      "verified_public_on": "2026-11-20"
+    },
+    {
+      "id": "demographics",
+      "repository": "Double-FW/Accessibility_Demographics",
+      "url": "https://github.com/Double-FW/Accessibility_Demographics",
+      "visibility": "public",
+      "scope": "Functional-performance demographics, estimates and research guidance.",
+      "verified_public_on": "2026-11-20"
+    }
+  ],
+  "function_map": [
+    {
+      "id": "conversation_modes",
+      "title": "Accessible conversational modes",
+      "area": "communication",
+      "need_tags": [
+        "hearing",
+        "vision",
+        "deafblind",
+        "speech_communication",
+        "motor",
+        "situational"
+      ],
+      "route_when": "Customer support spans voice, text, chat, captions or mixed human-agent interaction.",
+      "agentic_functions": [
+        "communicate",
+        "transcribe",
+        "summarise",
+        "route",
+        "handoff"
+      ],
+      "choice_control": "Offer supported, accessible modes; preserve meaning, speaker turns and task context when switching.",
+      "evidence_to_check": "Check comprehension, transcription errors, turn-taking, modality switching and task completion.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.1",
+        "LGIRS-1.5",
+        "LGIRS-2.5",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "chatbots",
+        "inclusive_design"
+      ],
+      "supporting_repo_ids": [
+        "captions",
+        "data_ethics",
+        "qa"
+      ],
+      "guardrails": "Do not infer preferred mode from disability or channel choice; do not assume text or speech works for everyone.",
+      "required_behaviour_and_user_control": "Offer supported, accessible modes; preserve meaning, speaker turns and task context when switching."
+    },
+    {
+      "id": "live_speech_access",
+      "title": "Live speech access",
+      "area": "communication",
+      "need_tags": [
+        "hearing",
+        "deafblind",
+        "cognitive",
+        "language",
+        "situational"
+      ],
+      "route_when": "Speech is central to a call, meeting, service or instruction.",
+      "agentic_functions": [
+        "caption",
+        "transcribe",
+        "identify_speakers",
+        "summarise"
+      ],
+      "choice_control": "Provide timely text access, speaker attribution, relevant sound cues and uncertainty markers.",
+      "evidence_to_check": "Check omissions, names/numbers, synchronisation, correction, latency and task outcomes.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.3",
+        "LGIRS-1.4",
+        "LGIRS-3.3",
+        "LGIRS-4.1"
+      ],
+      "primary_repo_ids": [
+        "captions"
+      ],
+      "supporting_repo_ids": [
+        "video_production",
+        "avmsd",
+        "chatbots",
+        "eu_ai_act"
+      ],
+      "guardrails": "Do not present automated transcription as exact or as a substitute for an interpreter or accommodation where those are needed.",
+      "required_behaviour_and_user_control": "Provide timely text access, speaker attribution, relevant sound cues and uncertainty markers."
+    },
+    {
+      "id": "captions_transcripts",
+      "title": "Captions, subtitles and transcripts",
+      "area": "media",
+      "need_tags": [
+        "hearing",
+        "cognitive",
+        "language",
+        "situational"
+      ],
+      "route_when": "Agent creates, recommends, displays or evaluates audiovisual content.",
+      "agentic_functions": [
+        "caption",
+        "subtitle",
+        "transcribe",
+        "synchronise",
+        "evaluate"
+      ],
+      "choice_control": "Route to caption/subtitle guidance; preserve meaningful speech, speaker identity, sound information and timing.",
+      "evidence_to_check": "Check accuracy, completeness, synchronisation, non-speech sound and delivery by asset/platform.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.1",
+        "LGIRS-1.5",
+        "LGIRS-4.5",
+        "LGIRS-5.1"
+      ],
+      "primary_repo_ids": [
+        "captions"
+      ],
+      "supporting_repo_ids": [
+        "video_production",
+        "avmsd",
+        "games",
+        "vrxr"
+      ],
+      "guardrails": "Auto-generated captions are not verified evidence; captions alone do not meet every person's needs.",
+      "required_behaviour_and_user_control": "Route to caption/subtitle guidance; preserve meaningful speech, speaker identity, sound information and timing."
+    },
+    {
+      "id": "audio_description",
+      "title": "Audio description and visual context",
+      "area": "media",
+      "need_tags": [
+        "vision",
+        "deafblind",
+        "cognitive"
+      ],
+      "route_when": "Visual information is needed to understand media, a chart or a customer decision.",
+      "agentic_functions": [
+        "describe",
+        "narrate",
+        "summarise_visuals",
+        "provide_alternative"
+      ],
+      "choice_control": "Describe decision-relevant visual information accurately; distinguish observation from inference.",
+      "evidence_to_check": "Check essential details, relationships, timing, factuality and access to alternatives.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.4",
+        "LGIRS-3.2",
+        "LGIRS-3.3",
+        "LGIRS-5.1"
+      ],
+      "primary_repo_ids": [
+        "audio_description",
+        "charts"
+      ],
+      "supporting_repo_ids": [
+        "video_production",
+        "avmsd",
+        "documents"
+      ],
+      "guardrails": "Do not infer emotions, identity or intent from appearance or replace useful detail with a generic label.",
+      "required_behaviour_and_user_control": "Describe decision-relevant visual information accurately; distinguish observation from inference."
+    },
+    {
+      "id": "semantic_navigation",
+      "title": "Semantic and non-visual navigation",
+      "area": "navigation",
+      "need_tags": [
+        "vision",
+        "deafblind",
+        "cognitive",
+        "memory"
+      ],
+      "route_when": "Agent helps navigate a website, app, document, form or information space.",
+      "agentic_functions": [
+        "navigate",
+        "locate",
+        "summarise_structure",
+        "resume"
+      ],
+      "choice_control": "Use headings, landmarks, labels, reading order and stable references; preserve context and entered data.",
+      "evidence_to_check": "Check screen-reader and keyboard routes, focus, state, orientation and resumption.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.1",
+        "LGIRS-1.3",
+        "LGIRS-1.5",
+        "LGIRS-4.3"
+      ],
+      "primary_repo_ids": [
+        "qa",
+        "documents"
+      ],
+      "supporting_repo_ids": [
+        "cognitive_ux",
+        "inclusive_design",
+        "typography",
+        "eaa",
+        "wad"
+      ],
+      "guardrails": "A text scrape or accessibility tree is not complete proof of a usable task.",
+      "required_behaviour_and_user_control": "Use headings, landmarks, labels, reading order and stable references; preserve context and entered data."
+    },
+    {
+      "id": "visual_data_equivalence",
+      "title": "Charts, maps and visual-data access",
+      "area": "information",
+      "need_tags": [
+        "vision",
+        "cognitive",
+        "reading",
+        "deafblind"
+      ],
+      "route_when": "Customer must understand or compare information presented visually.",
+      "agentic_functions": [
+        "describe",
+        "tabulate",
+        "compare",
+        "filter",
+        "explain"
+      ],
+      "choice_control": "Offer structured alternatives preserving values, relationships, spatial context and uncertainty.",
+      "evidence_to_check": "Check data equivalence, labels, scale, source, uncertainty and decision usability.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.4",
+        "LGIRS-3.2",
+        "LGIRS-3.3",
+        "LGIRS-5.1"
+      ],
+      "primary_repo_ids": [
+        "charts"
+      ],
+      "supporting_repo_ids": [
+        "documents",
+        "inclusive_design",
+        "qa",
+        "demographics"
+      ],
+      "guardrails": "Do not replace needed detail with a high-level summary or invent values.",
+      "required_behaviour_and_user_control": "Offer structured alternatives preserving values, relationships, spatial context and uncertainty."
+    },
+    {
+      "id": "accessible_documents_messages",
+      "title": "Accessible documents, emails and messages",
+      "area": "content",
+      "need_tags": [
+        "vision",
+        "hearing",
+        "cognitive",
+        "reading",
+        "motor"
+      ],
+      "route_when": "Agent writes, reformats, summarises or sends a customer-facing document or message.",
+      "agentic_functions": [
+        "author",
+        "format",
+        "structure",
+        "summarise",
+        "check"
+      ],
+      "choice_control": "Use accessible structure, links, reading order, text alternatives, readable typography and suitable formats.",
+      "evidence_to_check": "Check structure, tables, links, images, meaning, language and format compatibility.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.1",
+        "LGIRS-2.3",
+        "LGIRS-3.1",
+        "LGIRS-3.5"
+      ],
+      "primary_repo_ids": [
+        "documents",
+        "email"
+      ],
+      "supporting_repo_ids": [
+        "typography",
+        "qa",
+        "inclusive_design",
+        "policy"
+      ],
+      "guardrails": "Do not silently remove important detail or change meaning; require authority before sending.",
+      "required_behaviour_and_user_control": "Use accessible structure, links, reading order, text alternatives, readable typography and suitable formats."
+    },
+    {
+      "id": "language_reading_support",
+      "title": "User-controlled language and reading support",
+      "area": "content",
+      "need_tags": [
+        "cognitive",
+        "reading",
+        "attention",
+        "language"
+      ],
+      "route_when": "Customer requests simplification, definition, translation, read-aloud, dictation or writing support.",
+      "agentic_functions": [
+        "simplify",
+        "define",
+        "translate",
+        "read_aloud",
+        "dictate",
+        "proofread"
+      ],
+      "choice_control": "Preserve facts, actions, consequences and choices; make transformations and original meaning inspectable.",
+      "evidence_to_check": "Check meaning preservation, controls, reversibility and critical-information comprehension.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-3.1",
+        "LGIRS-3.2",
+        "LGIRS-3.3",
+        "LGIRS-3.4",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "cognitive_ux",
+        "inclusive_design"
+      ],
+      "supporting_repo_ids": [
+        "typography",
+        "documents",
+        "chatbots",
+        "little_book"
+      ],
+      "guardrails": "Do not infer diagnosis or ability from spelling/speed; do not remove warnings or legal meaning.",
+      "required_behaviour_and_user_control": "Preserve facts, actions, consequences and choices; make transformations and original meaning inspectable."
+    },
+    {
+      "id": "input_output_alternatives",
+      "title": "Alternative input and output",
+      "area": "interaction",
+      "need_tags": [
+        "speech_communication",
+        "motor",
+        "hearing",
+        "vision",
+        "deafblind"
+      ],
+      "route_when": "Task currently depends on speech, fine motor actions, audio, vision or rapid interaction.",
+      "agentic_functions": [
+        "accept_input",
+        "convert_mode",
+        "provide_output",
+        "confirm"
+      ],
+      "choice_control": "Support applicable keyboard, switch, text, speech and AT paths; preserve content across mode changes.",
+      "evidence_to_check": "Check parity, input errors, correction, focus/turn retention and device/AT combinations.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.5",
+        "LGIRS-2.3",
+        "LGIRS-3.4",
+        "LGIRS-4.3",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "qa",
+        "chatbots"
+      ],
+      "supporting_repo_ids": [
+        "vrxr",
+        "games",
+        "inclusive_design",
+        "cognitive_ux"
+      ],
+      "guardrails": "Do not assume one alternative will fit all; do not force voice or text.",
+      "required_behaviour_and_user_control": "Support applicable keyboard, switch, text, speech and AT paths; preserve content across mode changes."
+    },
+    {
+      "id": "motor_interaction",
+      "title": "Motor access and gesture alternatives",
+      "area": "interaction",
+      "need_tags": [
+        "motor",
+        "fatigue",
+        "vision",
+        "situational"
+      ],
+      "route_when": "Controls require dragging, holding, repeated activation, precise targeting or timed gestures.",
+      "agentic_functions": [
+        "operate",
+        "select",
+        "navigate",
+        "reduce_repetition"
+      ],
+      "choice_control": "Provide supported alternatives to precision, repeated effort and time pressure; make action state clear.",
+      "evidence_to_check": "Check keyboard/switch/voice routes as applicable, target size, accidental activation, timing and recovery.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.5",
+        "LGIRS-2.2",
+        "LGIRS-4.4",
+        "LGIRS-5.2",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "qa"
+      ],
+      "supporting_repo_ids": [
+        "games",
+        "vrxr",
+        "chatbots",
+        "accommodation"
+      ],
+      "guardrails": "Do not assume one motor access route works for all.",
+      "required_behaviour_and_user_control": "Provide supported alternatives to precision, repeated effort and time pressure; make action state clear."
+    },
+    {
+      "id": "forms_transactions",
+      "title": "Forms and transaction assistance",
+      "area": "task_completion",
+      "need_tags": [
+        "vision",
+        "motor",
+        "cognitive",
+        "memory",
+        "reading"
+      ],
+      "route_when": "Agent explains, fills, validates or submits forms, bookings, purchases or account changes.",
+      "agentic_functions": [
+        "explain_fields",
+        "populate",
+        "validate",
+        "save_resume",
+        "submit"
+      ],
+      "choice_control": "Show errors in context, preserve entries and distinguish draft, saved, submitted and confirmed states.",
+      "evidence_to_check": "Check labels, error focus, persistence, confirmation, duplicates and actual service outcome.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.3",
+        "LGIRS-2.1",
+        "LGIRS-2.3",
+        "LGIRS-3.1",
+        "LGIRS-4.4",
+        "LGIRS-5.1"
+      ],
+      "primary_repo_ids": [
+        "qa",
+        "eaa"
+      ],
+      "supporting_repo_ids": [
+        "wad",
+        "global_regs",
+        "chatbots",
+        "task_analysis",
+        "accommodation"
+      ],
+      "guardrails": "Do not submit payment, contract or sensitive form outside authority; success text is not an event receipt.",
+      "required_behaviour_and_user_control": "Show errors in context, preserve entries and distinguish draft, saved, submitted and confirmed states."
+    },
+    {
+      "id": "task_scaffolding",
+      "title": "Task breakdown and memory support",
+      "area": "task_support",
+      "need_tags": [
+        "cognitive",
+        "memory",
+        "attention",
+        "fatigue"
+      ],
+      "route_when": "Task is multi-step, unfamiliar, interrupted or high-information.",
+      "agentic_functions": [
+        "decompose",
+        "summarise_next_step",
+        "retain_approved_context",
+        "resume"
+      ],
+      "choice_control": "Show goal, manageable steps, dependencies and next action; support pause and return.",
+      "evidence_to_check": "Check orientation, recall burden, completion, resumption accuracy and total human effort.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.3",
+        "LGIRS-2.5",
+        "LGIRS-3.1",
+        "LGIRS-3.4",
+        "LGIRS-5.2",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "cognitive_ux",
+        "task_analysis"
+      ],
+      "supporting_repo_ids": [
+        "chatbots",
+        "little_book",
+        "qa",
+        "documents"
+      ],
+      "guardrails": "Do not infer cognitive capacity or impose one step size, reminder style or memory aid.",
+      "required_behaviour_and_user_control": "Show goal, manageable steps, dependencies and next action; support pause and return."
+    },
+    {
+      "id": "status_notifications",
+      "title": "Status and notifications",
+      "area": "interaction",
+      "need_tags": [
+        "vision",
+        "hearing",
+        "cognitive",
+        "attention",
+        "sensory"
+      ],
+      "route_when": "Agent gives progress, alerts, reminders, errors or completion notices.",
+      "agentic_functions": [
+        "announce_state",
+        "prioritise",
+        "notify",
+        "persist_or_retrieve"
+      ],
+      "choice_control": "Expose accurate, prioritised state through accessible routes; distinguish estimates from observed events.",
+      "evidence_to_check": "Check AT announcements, persistence, priority, interruption and event/message consistency.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.3",
+        "LGIRS-1.5",
+        "LGIRS-3.3",
+        "LGIRS-5.2"
+      ],
+      "primary_repo_ids": [
+        "qa",
+        "chatbots"
+      ],
+      "supporting_repo_ids": [
+        "email",
+        "documents",
+        "cognitive_ux",
+        "typography"
+      ],
+      "guardrails": "Do not rely on sound or colour alone; protect sensitive content on shared devices.",
+      "required_behaviour_and_user_control": "Expose accurate, prioritised state through accessible routes; distinguish estimates from observed events."
+    },
+    {
+      "id": "pace_sensory_controls",
+      "title": "Pace, sensory and environmental controls",
+      "area": "interaction",
+      "need_tags": [
+        "sensory",
+        "attention",
+        "fatigue",
+        "hearing",
+        "vision",
+        "situational"
+      ],
+      "route_when": "Interface includes motion, sound, time pressure, dense stimuli or interruption.",
+      "agentic_functions": [
+        "adjust_presentation",
+        "pace",
+        "pause",
+        "resume"
+      ],
+      "choice_control": "Offer user-controlled pace, motion, sound, density and timing settings where relevant.",
+      "evidence_to_check": "Check timing, distraction, fatigue, lost work, recovery and task quality in varied conditions.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.5",
+        "LGIRS-2.2",
+        "LGIRS-2.5",
+        "LGIRS-3.4",
+        "LGIRS-5.2",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "cognitive_ux",
+        "qa"
+      ],
+      "supporting_repo_ids": [
+        "games",
+        "vrxr",
+        "chatbots",
+        "accommodation"
+      ],
+      "guardrails": "Do not auto-adjust from inferred diagnosis or behaviour; reducing stimulation must not remove information.",
+      "required_behaviour_and_user_control": "Offer user-controlled pace, motion, sound, density and timing settings where relevant."
+    },
+    {
+      "id": "personalisation",
+      "title": "Declared preferences and personalisation",
+      "area": "choice_and_personalisation",
+      "need_tags": [
+        "all_users",
+        "vision",
+        "hearing",
+        "motor",
+        "cognitive",
+        "sensory"
+      ],
+      "route_when": "Service remembers or applies access preferences, assistance level, modality or presentation settings.",
+      "agentic_functions": [
+        "collect_preference",
+        "apply",
+        "explain",
+        "revoke"
+      ],
+      "choice_control": "Apply explicit, authorised preferences; show scope, duration, storage and limits.",
+      "evidence_to_check": "Check persistence, override, removal, minimisation and outcome parity.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-2.1",
+        "LGIRS-3.4",
+        "LGIRS-4.1",
+        "LGIRS-5.3",
+        "LGIRS-5.4"
+      ],
+      "primary_repo_ids": [
+        "data_ethics",
+        "cognitive_ux"
+      ],
+      "supporting_repo_ids": [
+        "chatbots",
+        "demographics",
+        "inclusive_design",
+        "vrxr",
+        "games"
+      ],
+      "guardrails": "Do not infer or store diagnoses from clickstream, device settings or AT use; provide access without profile creation.",
+      "required_behaviour_and_user_control": "Apply explicit, authorised preferences; show scope, duration, storage and limits."
+    },
+    {
+      "id": "decision_comparison",
+      "title": "Accessible decision support and comparisons",
+      "area": "decision_support",
+      "need_tags": [
+        "cognitive",
+        "vision",
+        "hearing",
+        "reading",
+        "all_users"
+      ],
+      "route_when": "Agent explains or ranks options, costs, eligibility, risks or next steps.",
+      "agentic_functions": [
+        "compare",
+        "explain_tradeoffs",
+        "surface_constraints",
+        "support_choice"
+      ],
+      "choice_control": "Present comparable attributes, material trade-offs, assumptions and uncertainty.",
+      "evidence_to_check": "Check completeness, ordering effects, comprehension, access to detail and alignment with stated priorities.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.4",
+        "LGIRS-2.3",
+        "LGIRS-3.1",
+        "LGIRS-3.2",
+        "LGIRS-3.3",
+        "LGIRS-5.3",
+        "LGIRS-5.4"
+      ],
+      "primary_repo_ids": [
+        "charts",
+        "eaa"
+      ],
+      "supporting_repo_ids": [
+        "data_ethics",
+        "demographics",
+        "cognitive_ux",
+        "chatbots",
+        "qa"
+      ],
+      "guardrails": "Do not use disability or proxy data to disadvantage a customer; distinguish recommendation from decision.",
+      "required_behaviour_and_user_control": "Present comparable attributes, material trade-offs, assumptions and uncertainty."
+    },
+    {
+      "id": "delegated_action_permissions",
+      "title": "Delegated actions, permissions and approvals",
+      "area": "agent_control",
+      "need_tags": [
+        "all_users",
+        "cognitive",
+        "vision",
+        "hearing",
+        "motor"
+      ],
+      "route_when": "Agent may change customer data, spend, book, send, disclose or trigger external effects.",
+      "agentic_functions": [
+        "interpret_intent",
+        "check_scope",
+        "preview_effect",
+        "request_decision",
+        "execute_within_bounds"
+      ],
+      "choice_control": "Enforce authority at action boundaries; show accessible preview; preserve actual decision and event records.",
+      "evidence_to_check": "Check permissions, scope, amount/recipient, expiry, approval and outcome reconciliation.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-2.1",
+        "LGIRS-2.3",
+        "LGIRS-3.1",
+        "LGIRS-4.3",
+        "LGIRS-4.4"
+      ],
+      "primary_repo_ids": [
+        "eu_ai_act",
+        "policy"
+      ],
+      "supporting_repo_ids": [
+        "chatbots",
+        "runbooks",
+        "data_ethics",
+        "qa",
+        "eaa"
+      ],
+      "guardrails": "Retrieved text, profile data and generated plans grant no authority; do not require redundant approval for already-authorised work.",
+      "required_behaviour_and_user_control": "Enforce authority at action boundaries; show accessible preview; preserve actual decision and event records."
+    },
+    {
+      "id": "pause_stop_recovery",
+      "title": "Pause, stop, handover and recovery",
+      "area": "agent_control",
+      "need_tags": [
+        "all_users",
+        "motor",
+        "cognitive",
+        "fatigue"
+      ],
+      "route_when": "Agent runs multi-step, asynchronous, delegated or state-changing work.",
+      "agentic_functions": [
+        "pause",
+        "cancel",
+        "halt",
+        "handover",
+        "reconcile",
+        "recover"
+      ],
+      "choice_control": "Distinguish stop request from confirmed cessation; report committed effects and supported recovery.",
+      "evidence_to_check": "Check latency, queued work, partial effects, duplicate retries, resume state and actual status.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.3",
+        "LGIRS-2.2",
+        "LGIRS-2.4",
+        "LGIRS-2.5",
+        "LGIRS-4.4",
+        "LGIRS-5.2"
+      ],
+      "primary_repo_ids": [
+        "chatbots",
+        "qa"
+      ],
+      "supporting_repo_ids": [
+        "task_analysis",
+        "runbooks",
+        "eu_ai_act",
+        "cognitive_ux"
+      ],
+      "guardrails": "Do not claim stopped, undo or retry until actual effects are reconciled.",
+      "required_behaviour_and_user_control": "Distinguish stop request from confirmed cessation; report committed effects and supported recovery."
+    },
+    {
+      "id": "human_escalation",
+      "title": "Human escalation and remedy",
+      "area": "customer_support",
+      "need_tags": [
+        "hearing",
+        "speech_communication",
+        "deafblind",
+        "cognitive",
+        "all_users"
+      ],
+      "route_when": "Agent cannot meet stated need, confidence is insufficient, person requests human support or authority is needed.",
+      "agentic_functions": [
+        "detect_limit",
+        "offer_human",
+        "transfer_context",
+        "preserve_preferences"
+      ],
+      "choice_control": "Provide accessible route to responsible human; transfer only relevant authorised context and explain wait/next step.",
+      "evidence_to_check": "Check transfer success, context accuracy, privacy, wait status and human ability to act.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-2.5",
+        "LGIRS-3.5",
+        "LGIRS-5.1",
+        "LGIRS-5.3",
+        "LGIRS-5.4"
+      ],
+      "primary_repo_ids": [
+        "chatbots",
+        "policy"
+      ],
+      "supporting_repo_ids": [
+        "champions",
+        "runbooks",
+        "captions",
+        "data_ethics",
+        "hr"
+      ],
+      "guardrails": "Do not make AI the sole route for consequential services or promise unconfirmed support.",
+      "required_behaviour_and_user_control": "Provide accessible route to responsible human; transfer only relevant authorised context and explain wait/next step."
+    },
+    {
+      "id": "access_data_privacy",
+      "title": "Accessibility preferences and disability-related data",
+      "area": "privacy",
+      "need_tags": [
+        "all_users",
+        "vision",
+        "hearing",
+        "motor",
+        "cognitive",
+        "deafblind"
+      ],
+      "route_when": "Agent requests, stores, infers or uses access, disability, health, preference or functional-performance data.",
+      "agentic_functions": [
+        "minimise",
+        "explain_purpose",
+        "apply_choice",
+        "expire_or_delete"
+      ],
+      "choice_control": "Prefer task-relevant declared preferences; state purpose/retention; support correction, revocation and deletion.",
+      "evidence_to_check": "Check necessity, purpose, authority, security, access, retention and equivalent routes without profiling.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-2.1",
+        "LGIRS-3.4",
+        "LGIRS-4.1",
+        "LGIRS-5.4",
+        "LGIRS-5.5"
+      ],
+      "primary_repo_ids": [
+        "data_ethics"
+      ],
+      "supporting_repo_ids": [
+        "demographics",
+        "policy",
+        "eu_ai_act",
+        "global_regs",
+        "eaa"
+      ],
+      "guardrails": "Never infer diagnoses from behaviour or AT use; do not repurpose access data for eligibility or marketing.",
+      "required_behaviour_and_user_control": "Prefer task-relevant declared preferences; state purpose/retention; support correction, revocation and deletion."
+    },
+    {
+      "id": "functional_needs_research",
+      "title": "Functional-needs research and segmentation",
+      "area": "research",
+      "need_tags": [
+        "all_users",
+        "vision",
+        "hearing",
+        "motor",
+        "cognitive",
+        "speech_communication",
+        "deafblind"
+      ],
+      "route_when": "Organisation plans research, estimates coverage or compares service experience across needs and contexts.",
+      "agentic_functions": [
+        "define_segments",
+        "plan_research",
+        "estimate_with_caveats",
+        "compare"
+      ],
+      "choice_control": "Use functional performance and task context; state source, population, date, method, uncertainty and limits.",
+      "evidence_to_check": "Check who is missing, privacy, intersectionality, task outcomes and decision impact.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-3.3",
+        "LGIRS-5.4",
+        "LGIRS-5.5"
+      ],
+      "primary_repo_ids": [
+        "demographics"
+      ],
+      "supporting_repo_ids": [
+        "data_ethics",
+        "task_analysis",
+        "eaa",
+        "global_regs",
+        "esg_maturity"
+      ],
+      "guardrails": "Do not treat estimates as individual customer data or assign people to personas; FPC labels apply only within scope.",
+      "required_behaviour_and_user_control": "Use functional performance and task context; state source, population, date, method, uncertainty and limits."
+    },
+    {
+      "id": "feedback_outcome_evaluation",
+      "title": "Accessible feedback and outcome evaluation",
+      "area": "research",
+      "need_tags": [
+        "all_users",
+        "cognitive",
+        "reading",
+        "hearing",
+        "vision",
+        "motor"
+      ],
+      "route_when": "Agent collects or analyses customer feedback, outcomes, satisfaction or service quality.",
+      "agentic_functions": [
+        "ask_accessibly",
+        "summarise",
+        "compare",
+        "route_improvement"
+      ],
+      "choice_control": "Offer accessible voluntary feedback; keep activity, satisfaction, outcome and conformance evidence distinct.",
+      "evidence_to_check": "Check coverage, non-completion, burden, reasons, accessibility and study limits.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-3.3",
+        "LGIRS-5.1",
+        "LGIRS-5.2",
+        "LGIRS-5.4",
+        "LGIRS-5.5"
+      ],
+      "primary_repo_ids": [
+        "eaa",
+        "demographics"
+      ],
+      "supporting_repo_ids": [
+        "data_ethics",
+        "qa",
+        "task_analysis",
+        "global_regs",
+        "esg_maturity"
+      ],
+      "guardrails": "A rating does not prove correctness or access; continued use or no complaints does not prove satisfaction.",
+      "required_behaviour_and_user_control": "Offer accessible voluntary feedback; keep activity, satisfaction, outcome and conformance evidence distinct."
+    },
+    {
+      "id": "media_delivery",
+      "title": "Accessible audiovisual and streaming experience",
+      "area": "media",
+      "need_tags": [
+        "hearing",
+        "vision",
+        "deafblind",
+        "cognitive",
+        "situational"
+      ],
+      "route_when": "Agent recommends, configures, produces or evaluates video, streaming or programmes.",
+      "agentic_functions": [
+        "find_features",
+        "configure",
+        "produce",
+        "evaluate"
+      ],
+      "choice_control": "Route to caption, AD, production and applicable delivery guidance; verify feature at asset/language/platform level.",
+      "evidence_to_check": "Check feature availability, quality, synchronisation, platform behaviour and viewer outcome.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.1",
+        "LGIRS-1.3",
+        "LGIRS-3.4",
+        "LGIRS-4.5",
+        "LGIRS-5.1"
+      ],
+      "primary_repo_ids": [
+        "captions",
+        "audio_description"
+      ],
+      "supporting_repo_ids": [
+        "video_production",
+        "avmsd",
+        "global_regs",
+        "qa"
+      ],
+      "guardrails": "Service-level claims do not prove every asset has a feature.",
+      "required_behaviour_and_user_control": "Route to caption, AD, production and applicable delivery guidance; verify feature at asset/language/platform level."
+    },
+    {
+      "id": "games_xr",
+      "title": "Games, VR, XR and AR accessibility",
+      "area": "interactive_experience",
+      "need_tags": [
+        "vision",
+        "hearing",
+        "motor",
+        "cognitive",
+        "sensory",
+        "fatigue"
+      ],
+      "route_when": "Agent designs, configures, recommends or assesses a game or immersive experience.",
+      "agentic_functions": [
+        "configure",
+        "adapt_interaction",
+        "explain_controls",
+        "evaluate"
+      ],
+      "choice_control": "Consider mechanics, sensory demands, information, social participation, motion and safety; preserve meaningful participation.",
+      "evidence_to_check": "Check user-selected settings, reversibility, equivalent goals, device compatibility and comfort.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.2",
+        "LGIRS-2.1",
+        "LGIRS-3.4",
+        "LGIRS-4.5",
+        "LGIRS-5.3",
+        "LGIRS-5.4"
+      ],
+      "primary_repo_ids": [
+        "games",
+        "vrxr"
+      ],
+      "supporting_repo_ids": [
+        "qa",
+        "cognitive_ux",
+        "charts",
+        "captions"
+      ],
+      "guardrails": "Do not assume one preset maps to one disability group or remove meaningful play without choice.",
+      "required_behaviour_and_user_control": "Consider mechanics, sensory demands, information, social participation, motion and safety; preserve meaningful participation."
+    },
+    {
+      "id": "accommodation_booking",
+      "title": "Accessible accommodation and travel journeys",
+      "area": "service_journey",
+      "need_tags": [
+        "vision",
+        "hearing",
+        "motor",
+        "cognitive",
+        "fatigue",
+        "deafblind"
+      ],
+      "route_when": "Agent searches, compares, books or supports stay/venue services.",
+      "agentic_functions": [
+        "search_features",
+        "compare",
+        "book",
+        "request_adjustment",
+        "handoff"
+      ],
+      "choice_control": "Present specific verified features and uncertainty; carry user-approved requirements and questions through the journey.",
+      "evidence_to_check": "Check feature source/date, provider confirmation, journey-wide access and cancellation/handoff.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.4",
+        "LGIRS-2.3",
+        "LGIRS-3.3",
+        "LGIRS-3.5",
+        "LGIRS-5.3"
+      ],
+      "primary_repo_ids": [
+        "accommodation"
+      ],
+      "supporting_repo_ids": [
+        "chatbots",
+        "eaa",
+        "data_ethics",
+        "task_analysis"
+      ],
+      "guardrails": "Do not infer needs or promise features from generic 'accessible' labels.",
+      "required_behaviour_and_user_control": "Present specific verified features and uncertainty; carry user-approved requirements and questions through the journey."
+    },
+    {
+      "id": "brand_expectations",
+      "title": "Brand communication and accessible expectations",
+      "area": "content_and_brand",
+      "need_tags": [
+        "all_users",
+        "cognitive",
+        "hearing",
+        "vision",
+        "reading"
+      ],
+      "route_when": "Agent communicates service identity, accessibility features, fees, limits or commitments.",
+      "agentic_functions": [
+        "identify",
+        "set_expectation",
+        "explain_limit",
+        "communicate"
+      ],
+      "choice_control": "Make identity and material expectations accessible; align claims with verified service behaviour.",
+      "evidence_to_check": "Check claim evidence, consistency, comprehension and actual delivery.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.1",
+        "LGIRS-1.4",
+        "LGIRS-3.2",
+        "LGIRS-3.3",
+        "LGIRS-5.4"
+      ],
+      "primary_repo_ids": [
+        "branding_cx"
+      ],
+      "supporting_repo_ids": [
+        "typography",
+        "email",
+        "documents",
+        "inclusive_design",
+        "commitments"
+      ],
+      "guardrails": "Reassuring language is not evidence; do not promise unverified universal access.",
+      "required_behaviour_and_user_control": "Make identity and material expectations accessible; align claims with verified service behaviour."
+    },
+    {
+      "id": "employment_hr_services",
+      "title": "Accessible employment and HR services",
+      "area": "service_journey",
+      "need_tags": [
+        "vision",
+        "hearing",
+        "motor",
+        "cognitive",
+        "reading",
+        "fatigue"
+      ],
+      "route_when": "Agent serves applicants, employees or managers through recruitment, onboarding, adjustment or HR systems.",
+      "agentic_functions": [
+        "explain_process",
+        "support_application",
+        "request_adjustment",
+        "handoff"
+      ],
+      "choice_control": "Provide accessible processes and human routes; constrain disability/health information to its authorised purpose.",
+      "evidence_to_check": "Check completion, abandonment, privacy, adjustment response and comparable opportunity.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-2.1",
+        "LGIRS-3.5",
+        "LGIRS-5.1",
+        "LGIRS-5.4",
+        "LGIRS-5.5"
+      ],
+      "primary_repo_ids": [
+        "hr"
+      ],
+      "supporting_repo_ids": [
+        "policy",
+        "data_ethics",
+        "qa",
+        "eaa",
+        "chatbots"
+      ],
+      "guardrails": "Only use in HR scope; do not decide hiring or eligibility from sensitive disability data.",
+      "required_behaviour_and_user_control": "Provide accessible processes and human routes; constrain disability/health information to its authorised purpose."
+    },
+    {
+      "id": "media_representation",
+      "title": "Disability representation in generated/commissioned media",
+      "area": "content_and_representation",
+      "need_tags": [
+        "all_users",
+        "cognitive",
+        "hearing",
+        "vision"
+      ],
+      "route_when": "Agent creates or reviews scripts, casting, stories or disability-related public content.",
+      "agentic_functions": [
+        "retrieve_guidance",
+        "review_language",
+        "identify_risk",
+        "escalate"
+      ],
+      "choice_control": "Use relevant disability-led sources; distinguish analysis from facts about real people; route editorial choices to accountable humans.",
+      "evidence_to_check": "Check source provenance, perspective, stereotyping, permissions and whose voices are missing.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-1.4",
+        "LGIRS-3.2",
+        "LGIRS-3.3",
+        "LGIRS-5.4",
+        "LGIRS-5.5"
+      ],
+      "primary_repo_ids": [
+        "drama",
+        "casting"
+      ],
+      "supporting_repo_ids": [
+        "video_production",
+        "little_book",
+        "data_ethics"
+      ],
+      "guardrails": "Do not infer a real person's disability or make casting/editorial decisions autonomously.",
+      "required_behaviour_and_user_control": "Use relevant disability-led sources; distinguish analysis from facts about real people; route editorial choices to accountable humans."
+    },
+    {
+      "id": "organisational_enablement",
+      "title": "Governance, programme adoption and assurance",
+      "area": "governance",
+      "need_tags": [
+        "all_users"
+      ],
+      "route_when": "Agent helps prioritise, govern, resource, report or improve customer-facing accessibility functions.",
+      "agentic_functions": [
+        "map_capability",
+        "route_requirements",
+        "assign_owner",
+        "plan_research",
+        "report_gaps"
+      ],
+      "choice_control": "Connect user-facing functions to human owners, resources, applicable guidance, evidence and review.",
+      "evidence_to_check": "Check authority, scope, ownership, user participation, delivery evidence and unresolved barriers.",
+      "relevant_lgirs_criteria": [
+        "LGIRS-2.1",
+        "LGIRS-3.2",
+        "LGIRS-4.5",
+        "LGIRS-5.5"
+      ],
+      "primary_repo_ids": [
+        "policy",
+        "runbooks",
+        "ai_maturity"
+      ],
+      "supporting_repo_ids": [
+        "little_book",
+        "champions",
+        "synchronistic_design",
+        "commitments",
+        "esg_maturity",
+        "global_regs",
+        "eu_ai_act"
+      ],
+      "guardrails": "A policy, maturity score or network activity does not prove customer outcomes or conformance.",
+      "required_behaviour_and_user_control": "Connect user-facing functions to human owners, resources, applicable guidance, evidence and review."
+    }
+  ],
+  "repository_navigation": {
+    "suggested_path": "docs/agentic-accessibility-function-routing-map.json",
+    "suggested_readme_entry": "| Route agentic customer functions to Double FW accessibility guidance | [Agentic accessibility function routing map](docs/agentic-accessibility-function-routing-map.json) |",
+    "maintenance": "Recheck visibility, URLs and source scope before updating. Include only public repos; add a route only when the source materially supports it."
+  },
+  "maintenance_notes": [
+    "Public repository names, visibility and README scopes were checked on 2026-11-20; main links are live references, not pinned evidence.",
+    "The catalogue includes relevant cross-cutting, service-specific and conditional repos; no repo is relevant to every function.",
+    "This initial map has not been evaluated with autonomous agents or customer research."
+  ],
+  "format": "JSON data document",
+  "schema_version": "0.1.0"
+}
