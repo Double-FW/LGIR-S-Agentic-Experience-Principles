@@ -16,4 +16,4 @@ Review sources after relevant standards/protocol changes, corrected evidence or 
 
 Use versioned editorial releases and record material changes. Do not reuse a retired criterion ID for another meaning. Any future pilot report must name the actual scope, evidence, reviewer and limitations. Keep operational evidence in approved controlled systems.
 
-No scheduled maintenance, CI workflow, monitoring service or Hugging Face publisher is installed by this package. A future automation should propose source changes for review and separately verify actual publication. Do not silently convert source updates into adopted requirements.
+A weekly Hugging Face export workflow is provided; see [setup](huggingface/SETUP.md). It exports committed documentation without changing adopted requirements or reviewing external sources. Configuration and a successful publication run must be verified separately. No agent monitoring service or product evaluation is provided.

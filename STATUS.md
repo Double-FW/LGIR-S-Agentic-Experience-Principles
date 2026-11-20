@@ -10,4 +10,4 @@ The documents distinguish candidate requirements from informative explanation an
 
 No real agent was tested. No disabled-participant research, model comparison, security certification, actual legal-applicability review or live operational deployment was conducted. Local automated checks concern repository consistency and illustrative record invariants only. All worked cases are fictional and all product evaluation probes remain Not evaluated.
 
-The evidence needed to make stronger claims is listed in [research and open questions](docs/research-and-open-questions.md). Current sources and their limitations are in [references](docs/references.md). The package is not yet a newly published GitHub repository or Hugging Face dataset.
+The evidence needed to make stronger claims is listed in [research and open questions](docs/research-and-open-questions.md). Current sources and their limitations are in [references](docs/references.md). The source is published on GitHub. Hugging Face publication is a separate operational step; the presence of sync files does not establish that a destination update has succeeded.

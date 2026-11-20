@@ -56,3 +56,7 @@ Do not infer permission for real actions from an illustrative record. Apply actu
 ## Report truthfully
 
 Distinguish documentation prepared, source checked, local tests run, product evaluated, GitHub published and Hugging Face published. Do not claim a scheduled job or deployed integration exists because a runbook describes one. Keep the examples and criterion probes Not evaluated until actual scoped product evidence exists.
+
+## Hugging Face export
+
+The weekly publisher and its [setup instructions](huggingface/SETUP.md) preserve canonical records, source identity, draft qualifications and fictional-example status. Publish only the approved public snapshot and fixed destination. A passing structural check does not demonstrate agent performance. Verify actual workflow and destination results before reporting a completed sync.
