@@ -68,3 +68,7 @@ Read [Status](STATUS.md), [sources](docs/references.md) and [known limitations](
 Repository: [Double-FW/LGIR-S-Agentic-Experience-Principles](https://github.com/Double-FW/LGIR-S-Agentic-Experience-Principles). This is an editor’s draft prepared for review and a bounded pilot, not a deployed product or validated conformance scheme.
 
 Original material is copyright 2026 Double FW Ltd under [LICENSE](LICENSE). External material retains its own terms; see [NOTICE](NOTICE.md).
+
+## Hugging Face export
+
+The weekly publisher and its [setup instructions](huggingface/SETUP.md) preserve canonical records, source identity, draft qualifications and fictional-example status. Publish only the approved public snapshot and fixed destination. A passing structural check does not demonstrate agent performance. Verify actual workflow and destination results before reporting a completed sync.

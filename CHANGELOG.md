@@ -9,3 +9,7 @@
 - Linked seven inspected public Double-FW source documents at exact revisions and external primary references with their scope limits.
 - Added human-readable templates, illustrative machine records, generated-view/source/reference checks and regression tests.
 - No new remote repository, product evaluation, validated conformance scheme, deployed agent or Hugging Face publication claimed.
+
+## Dataset publication tooling
+
+Added a fixed-destination weekly Hugging Face exporter with committed-source provenance, routing context, synthetic example labels and guarded publication. No criterion or product-evaluation claim changed.
