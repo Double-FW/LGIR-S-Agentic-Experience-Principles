@@ -72,3 +72,11 @@ Original material is copyright 2026 Double FW Ltd under [LICENSE](LICENSE). Exte
 ## Hugging Face export
 
 The weekly publisher and its [setup instructions](huggingface/SETUP.md) preserve canonical records, source identity, draft qualifications and fictional-example status. Publish only the approved public snapshot and fixed destination. A passing structural check does not demonstrate agent performance. Verify actual workflow and destination results before reporting a completed sync.
+
+## About the author
+
+Gareth Ford Williams is a senior leader in accessibility and inclusive design and co-founder of Double FW Ltd. His work spans accessibility, UX, technical standards, assistive technology and inclusive media. At the BBC, he led accessibility and UX work and chaired standards governance, translating research and policy into practical guidance.
+
+## About Double FW Ltd
+
+Double FW Ltd is a UK accessibility and inclusive design consultancy. It helps organisations build accessibility into strategy, governance, brands, products, content and services. Its public repositories provide practical guidance for people and AI-assisted workflows.
